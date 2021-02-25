@@ -7,7 +7,13 @@ color: indigo;
 font-family: "Times New Roman", Times, serif;
 }
 
+h1 {
+background-color: /*BurlyWood*/ #F0F8FF;
+color: indigo; 
+/*font-family: arial, helvetica, sans-serif;*/
 
+font-family: "Brush Script MT", cursive;
+}
 
 ol {list-style-type: lower-alpha;
 padding: 5em;
