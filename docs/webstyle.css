@@ -1,6 +1,14 @@
+h1 {
+background-color: /*BurlyWood*/ #FFFFFF;
+color: #000000; 
+/*font-family: arial, comic-sans-ms, helevetica;*/
 
 body {
+<<<<<<< HEAD
 background-color: #FFFFFF; 
+=======
+background-color: /*BurlyWood*/ #FFFFFF;
+>>>>>>> d20ccb9847f0b04a1736d270b2a84588868b3a4f
 color: #000000; 
 /*font-family: times-new-roman, comic-sans-ms, helevetica;*/
 
