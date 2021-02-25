@@ -1,14 +1,9 @@
-h1 {
-background-color: #FFFFFF;
-color: #2656A3; 
-font-family: kristen-itc, segoe-print, verdana;
-}
-
-
 body {
-background-color: #FFFFFF;
+background-color: /*BurlyWood*/ #FFFFFF;
 color: #000000; 
-font-family: arial, sans-serif,helevetica;
+/*font-family: times-new-roman, comic-sans-ms, helevetica;*/
+
+font-family: "Times New Roman", Times, serif;
 }
 
 
