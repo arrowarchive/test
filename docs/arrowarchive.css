@@ -1,0 +1,78 @@
+body {
+font-family: arial, helvetica, sans-serif;
+background-image: url("wallpaper.png");
+background-color: #4CC0F3;
+color: #727272;
+}
+
+.flex {
+display:flex; justify-content:space-around; align-items:center; flex-direction:row; flex-wrap: wrap;
+}
+div {
+    
+}
+.main{
+    flex:4;
+    margin-left:25vw;
+}
+img{
+display:block;
+    border-radius: 15px;
+    
+}
+.sidebar {
+    height: 100%;
+    width: 270px;
+    position: fixed;
+    z-index: 1;
+  top: 0;
+  left: 0;
+text-align: left;
+    background-color: #FFFFFF;
+    overflow-x:hidden;
+    font-size: 20px;
+    line-height:200%;
+    flex:1;
+    }
+.pfp {
+    margin-top: 20px;
+    position:static;
+    display: block;
+        padding-left: 25px;
+        border:none;
+}
+a:hover {
+  color: #0F549D;
+  
+  }
+.welcome{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: black;
+    font-size: 36px;
+}
+button {
+    margin-top: 45px;
+    margin-bottom:45px;
+    background-color: #4CC0F3;
+    color: white;
+    outline:none;
+    padding: 15px 32px;
+    font-size: 24px;
+    display: inline-block;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+    }
+button:active {
+  background-color: #D997FF;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+button:hover {
+background-color: #D997FF;
+color: white;
+}
