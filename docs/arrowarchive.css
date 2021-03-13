@@ -1,21 +1,18 @@
 body {
 font-family: arial, helvetica, sans-serif;
-background-image: url("wallpaper.png");
-background-color: #4CC0F3;
+background-color:  #FFFFFF; /*#4CC0F3;*/
 color: #727272;
 }
 
-div.flex {
-display:flex; justify-content:space-between; /*align-items:center;*/ flex-direction:row; flex-wrap: wrap;
+div.flex {background-image: url("wallpaper.png");
+display:flex; justify-content:flex-start; /*align-items:center;*/ flex-direction:row; flex-wrap: wrap;
 }
 div.sidebar {
 text-align: left;
     background-color: #FFFFFF;
-   /* overflow-x:hidden;*/
     font-size: 20px;
   line-height:1.5em;
-    margin-left:0;
-    flex:1;
+    flex:1; 
     }
 div.main{
     flex:4;
