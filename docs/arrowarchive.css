@@ -5,35 +5,27 @@ background-color: #4CC0F3;
 color: #727272;
 }
 
-.flex {
-display:flex; justify-content:space-around; align-items:center; flex-direction:row; flex-wrap: wrap;
+div.flex {
+display:flex; justify-content:space-between; /*align-items:center;*/ flex-direction:row; flex-wrap: wrap;
 }
-div {
-    
-}
-.main{
-    flex:4;
-    margin-left:25vw;
-}
-img{
-display:block;
-    border-radius: 15px;
-    
-}
-.sidebar {
-    height: 100%;
-    width: 270px;
-    position: fixed;
-    z-index: 1;
-  top: 0;
-  left: 0;
+div.sidebar {
 text-align: left;
     background-color: #FFFFFF;
-    overflow-x:hidden;
+   /* overflow-x:hidden;*/
     font-size: 20px;
-    line-height:200%;
+  line-height:1.5em;
+    margin-left:0;
     flex:1;
     }
+div.main{
+    flex:4;
+    padding:1vw;
+    margin:auto;
+}
+img{ border-radius: 15px;
+  
+}
+img.iconbox{width:36vw; }
 .pfp {
     margin-top: 20px;
     position:static;
