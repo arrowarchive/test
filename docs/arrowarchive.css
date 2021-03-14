@@ -5,9 +5,10 @@ color: #727272;
 }
 
 div.flex {background-image: url("wallpaper.png");
-display:flex; justify-content:flex-start; /*align-items:center;*/ flex-direction:row; flex-wrap: wrap;
+display:flex; justify-content:flex-start; align-items: flex-start;; flex-direction:row; flex-wrap: wrap;
 }
-div.sidebar {
+div.sidebar {position:sticky;
+   top:0;
 text-align: left;
     background-color: #FFFFFF;
     font-size: 20px;
@@ -23,9 +24,8 @@ img{ border-radius: 15px;
   
 }
 img.iconbox{width:36vw; }
-.pfp {
-    margin-top: 20px;
-    position:static;
+div.pfp {
+  margin-top: 20px;
     display: block;
         padding-left: 25px;
         border:none;
