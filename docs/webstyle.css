@@ -1,0 +1,47 @@
+
+body {
+background-color: #4cc0f3;
+color: black;
+font-family: arial, helvetica, sans-serif;
+}
+ol {list-style-type: lower-alpha;
+    border: 12px solid white;
+    background-color: white;
+    border-radius: 12px;
+    width: fit-content;
+    line-height: 200%;
+    font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+    
+}
+
+h1 {
+    color: black;
+    font-size: 48px;
+        border: 12px solid white;
+    background-color: white;
+    border-radius: 12px;
+    width: fit-content;
+}
+
+img{
+    border-radius: 15px;
+    margin: 75px;
+    margin-left: 0px;
+    
+}
+p {
+        border: 12px solid white;
+    background-color: white;
+    border-radius: 12px;
+    width: fit-content;
+    line-height: 150%;
+    font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+}
+figure {background-color:lavender; margin:3em; width: 30%;} 
+figcaption {font-style:italic; font-size:.8em;}
+figure img {max-width:300px; width:100%;}
+/* Notice how the last rule is written: figure image {properties} . 
+ * The rule above controls the <img> element that is contained inside <figure>. 
+ * It does not control the size of the <img> that is not inside a <figure>. */
