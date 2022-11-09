@@ -45,3 +45,11 @@ figure img {max-width:300px; width:100%;}
 /* Notice how the last rule is written: figure image {properties} . 
  * The rule above controls the <img> element that is contained inside <figure>. 
  * It does not control the size of the <img> that is not inside a <figure>. */
+ 
+ .cat {
+     max-width: 50%;
+ }
+ 
+ .dog {
+     max-width: 50%;
+ }
