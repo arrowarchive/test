@@ -32,12 +32,17 @@ body {
   color:white;
   z-index: 99;
   flex-direction: row;
+  vertical-align: middle;
 }
-
+div.header {
+  display: flex;
+  flex-direction: row;
+}
 .logo {
   font-size: 36px;
   flex-direction: row;
   text-align: left;
+  margin-left: 5vw;
 }
 
 .box {
@@ -46,7 +51,7 @@ body {
     color: white;
     height: fit-content;
     margin-top: 15%;
-    margin-left: 20%;
+    margin-left: 14%;
     height: 10em;
     width: 10em;
     text-align: center;
@@ -66,4 +71,27 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+ul {
+  list-style-type: none;
+  font-size: 28px;
+  display: inline;
+  padding-top: 13px;
+}
+
+li {
+  display: inline;
+  margin-left: 5vw;
+  margin-top: auto;
+  vertical-align: text-bottom;
+  text-align: center;
+}
+
+.aboutus {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  align-items: center;
 }
